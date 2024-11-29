@@ -1,8 +1,11 @@
 import React from 'react'
+import LoginComponent from '../../../components/authentication/LoginComponent'
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <div className="">
+      <LoginComponent />
+    </div>
   )
 }
 
